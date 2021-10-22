@@ -1,0 +1,24 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Alisa tf launcher",
+  "description": "Alisa tf launcher",
+  "developer_name": "R L",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "alisa",
+      "type": "keyword",
+      "name": "ALTFS",
+      "default_value": "alisa"
+    },
+    {
+      "id": "url",
+      "type": "text",
+      "name": "Url to the alise site",
+      "default_value": "''"
+    }
+  ]
+}
